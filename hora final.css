@@ -1,0 +1,36 @@
+
+header{background-color: black;
+    color: white;
+    padding: 10px; 
+    margin: auto;
+    text-align: center;
+    height: 60px;}
+
+
+h1{color:aliceblue ;}
+
+h2{color:#0b0a0a ;
+    text-align: center;}
+
+nav{font-family: Arial, Helvetica, sans-serif;background-color: #bbb9b9;
+    padding: 10px;
+     margin: auto;
+}
+    
+
+table{background-color: #eee3e3; text-align: center; border: 5px solid; 
+    width: 1000px; height: 800px; border-spacing: 10px; padding: 20px; margin: auto }
+
+   td, th{border: 1px solid;padding: 10px;}
+
+   .fila1{background-color: #b32733; color: white}
+
+   .fila2{color: white; background-color: #666666;}
+
+  footer{background-color: black;
+    color: white;
+    padding: 10px; 
+    margin: auto;
+    text-align: center;
+    height: 60px;}
+
