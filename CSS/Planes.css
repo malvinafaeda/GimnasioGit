@@ -109,7 +109,7 @@ div{
 	transition: all 0.8s;
 }
 
-.caja4:hover{background: url(../gimnasio/pileta\ nueva.jpg);
+.caja4:hover{background: url(../IMG/pileta\ nueva.jpg);
     background-size: 100%;
 	border-color: rgb(18, 13, 14);
 	font-size: 20px;
@@ -124,3 +124,5 @@ footer{
 	text-align:center;
 	background-color:#0c0707;
 }
+
+a{color: white;}

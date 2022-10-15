@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;}
+
+  header{
+    height:250px;
+    background-color:#0c0707;
+    padding:45px 0 0 45px;
+      color: white;
+      text-align: center;
+    
+  }
+
+  nav{
+    height:45px;
+    background-color:#C1282D;
+    line-height:45px;
+    text-align:center;
+      color: #E6E6E6;}
+
+ a{color: white;}  
+
+ img{
+  margin:auto;
+  display:block;
+    width: 600;
+  height: 400;
+  padding: 10px 10px;
+
+  }
+
+
+
+h3{  display: inline-block;
+    
+    margin:auto;
+    font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;;
+    font-weight: 400;
+    color: #fff}
+    
+h6{display:block;
+  color:antiquewhite;
+  margin:auto;
+}
+
+.flexbox-container {display:block;
+	height: 200px;;
+	background-color: rgb(31, 29, 29);
+    color: whitesmoke;
+	padding:10px 10px 10px 10px;
+    border: black solid;
+       
+	animation-name: color;
+	animation-duration: 2s;
+  }
+  
+  @keyframes color {
+	0%   {background-color: black;}
+	50%  {background-color: rgb(46, 73, 92);}
+	100%  {background-color: black;}
+  }
+
+
+.flexbox-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: auto;
+    
+}
+
+.flexbox-container > div {
+    width: 400px;;
+    height: 300px;;
+    padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+    margin-right: 10px;
+    width: 30%;
+    height:50;
+}
+
+
